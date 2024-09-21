@@ -1,3 +1,19 @@
 What is Bash?
 :-Bash, short for Bourne-Again Shell, is a command-line interface (CLI) shell program that's commonly used in Linux and other Unix-based operating systems. It's the default shell in many Linux distributions.
 
+# root user (super user)
+
+$=local user (he can not make any security or root dir changes)
+
+Which:- allows users to search the list of paths in the $PATH environment variable and outputs the full path of the command specified as an argument.
+
+Shell Basics:- 
+- Command to run
+- Options to adjust the behaviour of the command
+- Arguments, which are typically targets of the command.
+
+i.e 
+ls (simple command)
+ls -all (optons)
+ls -ld Desktop/ (arguments)
+
