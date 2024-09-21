@@ -5,7 +5,12 @@ What is Bash?
 
 $=local user (he can not make any security or root dir changes)
 
+echo = a built-in tool that displays text, variables, or special characters to the standard output, usually the terminal screen. I
+
+w = Show who is logged on and what they are doing.
+
 Which:- allows users to search the list of paths in the $PATH environment variable and outputs the full path of the command specified as an argument.
+i.e., which ls, which pwd.
 
 Shell Basics:- 
 - Command to run
@@ -16,4 +21,55 @@ i.e
 ls (simple command)
 ls -all (optons)
 ls -ld Desktop/ (arguments)
+
+
+ctrl+shift+n = To open multiple terminal
+
+Linux Terminal:
+
+It is an interface for users where user text commands and manage tasks.
+
+Types of Terminal:
+Total 6 physical terminal types
+tty1,tty2,tty3,tty4,tty5,tty6
+# ctrl+alt+f3
+tty1-tty2
+tty1 for login shell
+tty2 for gui shell
+
+Note( rhel 7 supports login and terminal gui same tty1)
+
+# ctrl+alt+f3 = tty3-tty6 console used by CLI
+chvt
+logout
+
+Poweroff & Logout:-
+
+poweroff
+reboot
+init 6
+init 5 GUI Mode
+
+How to Manage Control Panel (Setting):
+passwd username = to set user password. i.e., passwd root
+man = Man command displays the user manual for any command that can be run on the terminal. i., man ls, man w.
+
+Check File Types:
+file pathaddress i.e.,  file home/newfile.txt
+
+cat /etc/passwd:
+
+plain text configuration file that stores user account information. It contains information such as the user's name, ID, group ID, home directory, and encrypted password. The file is owned by root and has rw-r--r-- permissions, which means that anyone can read it, but only root or a user with sudo privileges can write to it.
+
+head:- i.e., head -n 3 /etc/passwd
+tail   i.e., tail -n 3 /etc/passwd
+
+The head command will output the first part of the file, while the tail command will print the last part of the file.
+
+wc: 
+wc - print newline, word, and byte counts for each file i.e., wc /etc/passwd
+
+wc -l = print the newline counts i.e., wc -l /etc/passwd
+wc -c = print the byte counts i.e., wc -c /etc/passwd
+wc -m = print the character counts wc -m /etc/passwd
 
