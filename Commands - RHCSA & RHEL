@@ -1,0 +1,2 @@
+Which:- allows users to search the list of paths in the $PATH environment variable and outputs the full path of the command specified as an argument.
+
