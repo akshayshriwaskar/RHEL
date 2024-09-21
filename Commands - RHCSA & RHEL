@@ -1,2 +1,29 @@
-Which:- allows users to search the list of paths in the $PATH environment variable and outputs the full path of the command specified as an argument.
-
+su username
+which
+pwd
+ls
+ls -l
+ls -ld
+ls -all
+clear
+systemctl start sshd.service
+systemctl status sshd.service
+systemctl enable sshd.service
+ssh username@ip
+w
+ctrl+shift+n
+echo
+whoami
+id
+date
+date +%R
+date +%X
+time
+cal
+passwd username
+man
+head
+tail
+wc
+wc -l  
+wc -c
