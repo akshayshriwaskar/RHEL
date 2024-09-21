@@ -1,0 +1,3 @@
+What is Bash?
+:-Bash, short for Bourne-Again Shell, is a command-line interface (CLI) shell program that's commonly used in Linux and other Unix-based operating systems. It's the default shell in many Linux distributions.
+
