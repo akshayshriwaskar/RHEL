@@ -28,3 +28,12 @@ wc
 wc -l  
 wc -c
 pinfo
+/etc/passwd
+/etc/shadow
+/etc/group
+/etc/gshadow
+cat /etc/passwd
+cat /etc/shadow
+cat /etc/group
+cat /etc/gshadow
+
