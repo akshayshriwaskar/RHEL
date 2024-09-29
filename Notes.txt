@@ -73,3 +73,9 @@ wc -l = print the newline counts i.e., wc -l /etc/passwd
 wc -c = print the byte counts i.e., wc -c /etc/passwd
 wc -m = print the character counts wc -m /etc/passwd
 
+/etc/passwd = stores user account information and is a plain text file.
+/etc/shadow = stores hashed passwords and other user authentication information.  
+/etc/group = contains information about all the groups on a system, including their names, passwords, IDs, and members.
+/etc/gshadow = stores backup information about groups, such as hashed passwords and other security information.
+
+
