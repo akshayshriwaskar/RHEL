@@ -38,4 +38,5 @@ cat /etc/group
 cat /etc/gshadow
 tail /etc/passwd
 tail /etc/passwd | grep akshay
+tail /etc/shadow | grep akshay
 
